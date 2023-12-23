@@ -31,13 +31,14 @@
 \usepackage[multiple]{footmisc}
 \usepackage[T1]{fontenc}
 \usepackage[sc]{mathpazo}
+\usepackage{listings}
 \usepackage{longtable}
-\definecolor{lol}{RGB}{175,30,45}
-\definecolor{cmured}{RGB}{56,108,176}
+\definecolor{cmured}{RGB}{175,30,45}
+\definecolor{macroblue}{RGB}{56,108,176}
 \usepackage[format=plain,
             labelfont=bf,
             textfont=]{caption}
-\usepackage[colorlinks=true,citecolor=lol,linkcolor=lol,urlcolor=lol]{hyperref}
+\usepackage[colorlinks=true,citecolor=macroblue,linkcolor=macroblue,urlcolor=macroblue]{hyperref}
 \usepackage{varioref}
 \usepackage{chngcntr}
 
@@ -67,7 +68,7 @@
 pdfsubject = {},
 pdftitle = {spatial-sims Package Model Documentation},
 pdfauthor = {Pranay Gundam},
-linkcolor= lol
+linkcolor= macroblue
 }
 
 
@@ -89,5 +90,27 @@ linkcolor= lol
 \tableofcontents
 \newpage
 
+\section{Introduction}
+
+\section{Theoretical Model}
+
+The current model is driven by the tension between households vs firms on hiring decisions, households vs other households searching for residential units, and firms vs other firms searching for commerical units to live. This tension is 
+
+\subsection{Workers}
+
+\subsection{Firms}
+
+\subsection{Land Market Clearing}
+
+\subsection{Labor Market Clearing}
+
+\subsection{General Equilibrium}
+
+\section{Required Packages}
+
+\begin{verbatim}
+numpy v1.22.3
+shapely v2.0.2
+\end{verbatim}
 
 \end{document}
